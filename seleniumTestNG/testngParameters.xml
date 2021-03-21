@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+	<!-- classes to excute are listed here is test -->
+	<test name="Test with parameters for doctors login">
+		<classes>
+			<class name="healthCarePortal.DoctorPortal">
+				<parameter name="userName" value="doctorUser" />
+				<parameter name="password" value="DoctorPass" />
+				<methods>
+					<include name=".*_login" />
+				</methods>
+
+			</class>
+
+			<class name="healthCarePortal.PatientPortal">
+				<parameter name="userName" value="patientUser" />
+				<parameter name="password" value="patientPass" />
+			</class>
+
+		</classes>
+
+
+
+
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

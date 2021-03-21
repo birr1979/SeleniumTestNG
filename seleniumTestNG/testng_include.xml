@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<!-- packages to excute are listed here is test -->
+  <test name="Test">
+  
+		<packages>
+				<package name="healthCarePortal"/>
+		
+		
+		</packages>
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

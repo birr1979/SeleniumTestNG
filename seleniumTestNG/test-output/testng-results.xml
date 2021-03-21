@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="14" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-14T22:17:23 EDT" name="Suite" finished-at="2021-03-14T22:17:24 EDT" duration-ms="1191">
+    <groups>
+    </groups>
+    <test started-at="2021-03-14T22:17:23 EDT" name="Test with parameters for doctors login" finished-at="2021-03-14T22:17:24 EDT" duration-ms="1191">
+      <class name="healthCarePortal.DoctorPortal">
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:healthCarePortal.DoctorPortal@7334aada]" started-at="2021-03-14T22:17:23 EDT" name="beforeClassMethod" finished-at="2021-03-14T22:17:23 EDT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:healthCarePortal.DoctorPortal@7334aada]" started-at="2021-03-14T22:17:23 EDT" name="beforeMethod" finished-at="2021-03-14T22:17:23 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeSuiteMethod()[pri:0, instance:healthCarePortal.DoctorPortal@7334aada]" started-at="2021-03-14T22:17:23 EDT" name="beforeSuiteMethod" finished-at="2021-03-14T22:17:23 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:healthCarePortal.DoctorPortal@7334aada]" started-at="2021-03-14T22:17:23 EDT" name="beforeTestMethod" finished-at="2021-03-14T22:17:23 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:healthCarePortal.DoctorPortal@7334aada]" started-at="2021-03-14T22:17:24 EDT" name="afterMethod" finished-at="2021-03-14T22:17:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="AfterSuiteMethod()[pri:0, instance:healthCarePortal.DoctorPortal@7334aada]" started-at="2021-03-14T22:17:24 EDT" name="AfterSuiteMethod" finished-at="2021-03-14T22:17:24 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuiteMethod -->
+      </class> <!-- healthCarePortal.DoctorPortal -->
+      <class name="healthCarePortal.PatientPortal">
+        <test-method is-config="true" signature="iteration()[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:23 EDT" name="iteration" finished-at="2021-03-14T22:17:23 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration -->
+        <test-method signature="Patient_CancelAppt()[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:23 EDT" name="Patient_CancelAppt" finished-at="2021-03-14T22:17:23 EDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Patient_CancelAppt -->
+        <test-method is-config="true" signature="iteration()[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:23 EDT" name="iteration" finished-at="2021-03-14T22:17:23 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration -->
+        <test-method signature="Patient_Login()[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:23 EDT" name="Patient_Login" finished-at="2021-03-14T22:17:23 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Patient_Login -->
+        <test-method is-config="true" signature="iteration()[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:24 EDT" name="iteration" finished-at="2021-03-14T22:17:24 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration -->
+        <test-method signature="Patient_MakeAppt(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:24 EDT" name="Patient_MakeAppt" data-provider="getExcelData" finished-at="2021-03-14T22:17:24 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dr.PCP]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[44004]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8:30AM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Patient_MakeAppt -->
+        <test-method is-config="true" signature="iteration()[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:24 EDT" name="iteration" finished-at="2021-03-14T22:17:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration -->
+        <test-method signature="Patient_MakeAppt(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:24 EDT" name="Patient_MakeAppt" data-provider="getExcelData" finished-at="2021-03-14T22:17:24 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DR.DERMA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[44055]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8:30AM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Patient_MakeAppt -->
+        <test-method is-config="true" signature="iteration()[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:24 EDT" name="iteration" finished-at="2021-03-14T22:17:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration -->
+        <test-method signature="Patient_MakeAppt(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:24 EDT" name="Patient_MakeAppt" data-provider="getExcelData" finished-at="2021-03-14T22:17:24 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DR. Dent]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[44056]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8:30AM]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Patient_MakeAppt -->
+        <test-method is-config="true" signature="iteration()[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:24 EDT" name="iteration" finished-at="2021-03-14T22:17:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration -->
+        <test-method signature="Patient_ReadEmails()[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:24 EDT" name="Patient_ReadEmails" finished-at="2021-03-14T22:17:24 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Patient_ReadEmails -->
+        <test-method is-config="true" signature="iteration()[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:24 EDT" name="iteration" finished-at="2021-03-14T22:17:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration -->
+        <test-method signature="Patient_SendEmails()[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:24 EDT" name="Patient_SendEmails" finished-at="2021-03-14T22:17:24 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Patient_SendEmails -->
+        <test-method is-config="true" signature="iteration()[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:24 EDT" name="iteration" finished-at="2021-03-14T22:17:24 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iteration -->
+        <test-method signature="Patient_rescheduleAppt()[pri:0, instance:healthCarePortal.PatientPortal@1d9b7cce]" started-at="2021-03-14T22:17:24 EDT" name="Patient_rescheduleAppt" finished-at="2021-03-14T22:17:24 EDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Patient_rescheduleAppt -->
+      </class> <!-- healthCarePortal.PatientPortal -->
+    </test> <!-- Test with parameters for doctors login -->
+  </suite> <!-- Suite -->
+</testng-results>
